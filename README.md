@@ -1,8 +1,6 @@
-ENOLOGMESSAGE Parser
-====================
+enochecker_logs
+===============
 
-Convert json `##ENOLOGMESSAGE` output to a readable format
-directly from `docker-compose logs`.
+Simple parser to make exceptions in enochecker output readable.
 
-Sample usage: `docker-compose logs --tail=400 | bash <PATH_TO_REPO>/parse.sh | less`
-
+Sample usage: `docker-compose up --build | enochecker_logs`
