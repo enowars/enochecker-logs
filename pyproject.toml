@@ -1,9 +1,11 @@
 [project]
 name = "enochecker-logs"
-version = "0.1.0"
+version = "0.1.1"
 requires-python = ">=3.9"
 license = { file = "LICENSE" }
-dependencies = []
+dependencies = [
+    "python-dateutil>=2.9.0.post0",
+]
 
 [build-system]
 requires = ["setuptools"]
